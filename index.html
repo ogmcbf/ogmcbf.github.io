@@ -88,7 +88,7 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">OGM-CBF: Occupancy Grid Map-based Control Barrier Function for Safe Mobile Robot Control with Memory of out of View Obstacles</h1>
+          <h1 class="title is-1 publication-title">OGM-CBF: Occupancy Grid Map-based Control Barrier Function</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="https://www.golnazraja.me/">Golnaz Raja</a>,</span>
@@ -151,15 +151,6 @@
                   <span>Code</span>
                   </a>
               </span>
-              <!-- Dataset Link. -->
-              <span class="link-block">
-                <!-- <a href="https://github.com/google/nerfies/releases/tag/0.1"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="far fa-images"></i>
-                  </span>
-                  <span>Data</span>
-                  </a> -->
             </div>
 
           </div>
@@ -174,14 +165,14 @@
     <div class="hero-body">
       
       <h2 class="subtitle has-text-centered">
-        <span class="dnerf">OGM-CBF</span> gaurantees safe control of mobile robots in unknown environments by incorporating memory of out-of-view obstacles into the Control Barrier Function framework.
+        <span class="dnerf">OGM-CBF</span> guarantees safe control of mobile robots in unknown environments by incorporating memory of out-of-view obstacles into the Control Barrier Function framework.
       </h2>
 
       <div class="has-text-centered">
         <img src="./static/images/intro_schema.png"
             class="interpolation-image"
             alt="The proposed approach exploits a grid map to retain the memory of an obstacle observed a priori, and thus can safely avoid it even after the obstacle leaves the Field of View (FoV)." />
-        <p class="is-size-7 has-text-grey">Figure from the paper.</p>
+        <p class="is-size-7 has-text-grey">Figure from the OGM-CBF paper. &copy; 2026 IEEE. Personal use is permitted; permission from IEEE is required for all other uses.</p>
       </div>
 
       
@@ -274,37 +265,49 @@
       </div>
     </div>
     <!--/ Abstract. -->
+  </div>
+</section>
 
-    <!-- Paper video. -->
+<!-- Paper video. -->
+<section class="section">
+  <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-      <h1 class="title is-3">Real world deployments</h1>
-        <h2 class="title is-3">1) Concave Scenario</h2>
-        <div class="publication-video">
-          <video id="teaser" autoplay muted loop playsinline preload="metadata" width="100%">
-        <source src="./static/videos/video_web_concave_720.mp4"
-                type="video/mp4">
-      </video>
+        <h1 class="title is-3">Real-World Deployments</h1>
+        <p class="subtitle is-5">
+          We validate OGM-CBF on physical robotic platforms in representative real-world scenarios.
+        </p>
+        
+        <div class="deployment-video">
+          <h2 class="title is-5">Industrial Mobile Robot: Concave Scenario</h2>
+          <div class="publication-video">
+            <video id="teaser" autoplay muted loop playsinline preload="metadata" width="100%">
+              <source src="./static/videos/video_web_concave_720.mp4"
+                      type="video/mp4">
+            </video>
+          </div>
         </div>
 
 
-
-        <h2 class="title is-3">2) Clutter Scenario</h2>
-        <div class="publication-video">
-          <video id="teaser2" autoplay muted loop playsinline preload="metadata" width="100%">
-        <source src="./static/videos/video_web_concave_720.mp4"
-                type="video/mp4">
-      </video>
+        <div class="deployment-video">
+          <h2 class="title is-5">Industrial Mobile Robot: Cluttered Scenario</h2>
+          <div class="publication-video">
+            <video id="teaser2" autoplay muted loop playsinline preload="metadata" width="100%">
+              <source src="./static/videos/video_web_clutter_720.mp4"
+                  type="video/mp4">
+            </video>
+          </div>
         </div>
 
 
-
-        <h2 class="title is-3">3) autonomous wheel loader</h2>
-        <div class="publication-video">
-          <video id="teaser3" autoplay muted loop playsinline preload="metadata" width="100%">
-        <source src="./static/videos/video_web_concave_720.mp4"
-                type="video/mp4">
-      </video>
+        <div class="deployment-video">
+          <h2 class="title is-5">Autonomous Wheel Loader</h2>
+          <div class="publication-video">
+            <video id="teaser3" autoplay muted loop playsinline preload="metadata" width="100%">
+              <source src="./static/videos/video_web_eevee_720.mp4"
+                  type="video/mp4">
+            </video>
+          </div>
         </div>
 
       </div>
